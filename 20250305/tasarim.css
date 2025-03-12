@@ -46,3 +46,69 @@ header{
 .sag-alt-yuvarla{
     border-bottom-right-radius: 2rem !important;
 }
+
+/*main satır 3*/
+#baslik-haber{
+    font-style: italic;
+    background-color: #e91546 ;
+    color:#fff;
+    text-align: center;
+    padding: 1rem;
+    border-bottom-right-radius: 1.5rem;
+}
+#list-haber a{
+    color: #aaa;
+    text-decoration: none; /*etiketin altındaki çizgiyi kaldırır*/
+}
+/*hover üzerine gelindiğinde demek*/
+#list-haber a:hover{
+    color: #e91546;
+}
+#baslik-duyuru{
+    font-style: italic;
+    background-color: #d45907 ;
+    color:#fff;
+    text-align: center;
+    padding: 1rem;
+    border-bottom-right-radius: 1.5rem;
+}
+#list-duyuru a{
+    color: #aaa;
+    text-decoration: none; /*etiketin altındaki çizgiyi kaldırır*/
+}
+#list-duyuru a:hover{
+    color: #d45907 ;
+}
+#baslik-islem{
+    font-style: italic;
+    background-color: #12720a ;
+    color:#fff;
+    text-align: center;
+    padding: 1rem;
+    border-bottom-right-radius: 1.5rem;
+}
+#list-islem a{
+    color: #aaa;
+    text-decoration: none; /*etiketin altındaki çizgiyi kaldırır*/
+}
+#list-islem a:hover{
+    color: #12720a;
+}
+
+/*main satır 4*/
+#panel1 th{
+    color: var(--renk2-acik-mavi);
+}
+.btn-acik-mavi{
+    background-color: var(--renk2-acik-mavi);
+    color: #fff;
+}
+.btn-acik-mavi:hover{
+    outline: 3px solid var(--renk2-acik-mavi);
+    color: var(--renk2-acik-mavi);
+}
+#panel1 .kurum-resim{
+    width: 100%;
+    height: 100px;
+    object-fit: fill;
+}
